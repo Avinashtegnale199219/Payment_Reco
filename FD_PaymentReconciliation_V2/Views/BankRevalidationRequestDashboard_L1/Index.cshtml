@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<script type="text/javascript">
+    function InitFunction() {
+        var objectURLPath = { uploadedData: '@Url.Action("Get_BankRevalidation_PendingApproval_Dashboard", "BankRevalidationRequestDashboard_L1")'};
+            return objectURLPath;
+        }
+</script>
+<div class="container">
+    <div id="preloader" style="display: none;">
+        <div class="overlay">
+            <p>
+                Loading
+                <span class="spinner"></span>
+            </p>
+        </div>
+    </div>
+    <br /><br />
+
+    @*<input type="hidden" id="Hdn_REQDTLS_REQ_NO" />*@
+    @*<input type="hidden" id="hdn_IW_No" />*@
+
+    <div id="dvMain" class="panel panel-default">
+
+        <div class="panel-body">
+            <div class="form-group">
+
+                <div class="row" style="padding-bottom: 10px;">
+                    <div class="col-md-12">
+                        <div class="coman_table_head  table-responsive">
+                            <table id="tblBankRevalidationRequestDashboard" class="table table-default">
+                                <thead>
+                                    <tr>
+                                        <th style="display:none">Request No</th>
+                                        <th>Select</th>
+                                        <th>IW No</th>
+                                        <th>FDR No</th>
+                                        <th>Folio No</th>
+                                        <th>Depositor Name</th>
+                                        <th>Amount</th>
+                                        <th>PAN</th>
+                                        <th>OFAS voucher No</th>
+                                        <th>Payment Status</th>
+                                        <th>Approved By</th>
+                                        <th>Approved Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="~/AppJs/BankRevalidationRequestDashboardL1.js"></script>
+<script src="~/js/jquery.dataTables.min.js"></script>

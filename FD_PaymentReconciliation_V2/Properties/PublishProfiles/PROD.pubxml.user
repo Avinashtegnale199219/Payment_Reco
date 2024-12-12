@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>\\172.30.0.223\Central Document\Avinash\@Publish\Payment_Reconcillation</_PublishTargetUrl>
+    <History>True|2023-11-03T12:40:59.7846798Z;True|2023-10-10T18:19:49.4287287+05:30;True|2023-10-05T19:45:40.8375861+05:30;True|2023-10-05T15:17:33.1074926+05:30;True|2023-09-12T16:10:13.6798314+05:30;True|2023-09-11T19:30:53.9747303+05:30;True|2023-09-11T11:19:04.2256168+05:30;True|2023-09-09T14:42:17.7831026+05:30;True|2023-09-09T14:15:01.3946605+05:30;True|2023-09-07T14:26:23.6837788+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="wwwroot/AppJs/BankRevalidationReconciliation.js">
+      <publishTime>04/20/2023 16:56:33</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/BankRevalidationReconciliationDashboard.js">
+      <publishTime>10/12/2023 16:08:20</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/BankRevalidationRequest.js">
+      <publishTime>11/03/2023 16:25:56</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/BankRevalidationRequestDashboardL1.js">
+      <publishTime>10/12/2023 15:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/BankRevalidationRequestDashboardL2.js">
+      <publishTime>10/12/2023 15:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/BankRevalidation_FirstApproval.js">
+      <publishTime>10/12/2023 15:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/BankRevalidation_SecondApproval.js">
+      <publishTime>10/12/2023 15:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/BankRevalWrappCommUpload.js">
+      <publishTime>04/20/2023 17:10:15</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/CMSCollectionReconciliation.js">
+      <publishTime>04/20/2023 17:10:15</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/CMSCollectionReconciliationDashBoard.js">
+      <publishTime>10/12/2023 15:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/CMSReconciliation.js">
+      <publishTime>10/12/2023 15:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/CMSReconciliationDashBoard.js">
+      <publishTime>10/12/2023 18:21:32</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/EP_UTR_RTGS_UploadReport.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/ESAT_UTR_RTGS_UploadReport.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/HDFCSoftFeedReconciliation.js">
+      <publishTime>04/20/2023 17:10:15</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/HDFCSoftFeedReconciliationDashBoard.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/OfflineReconciliation.js">
+      <publishTime>10/12/2023 15:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/OfflineReconciliationDashBoard.js">
+      <publishTime>10/12/2023 15:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/OnlinePaymentReconciliationList_RW.js">
+      <publishTime>10/12/2023 15:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/OnlinePaymentReconciliation_RW.js">
+      <publishTime>10/12/2023 15:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/OnlineReconciliationDashBoard.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/PaymentModeConversion.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/Reconciliation.js">
+      <publishTime>04/20/2023 17:10:12</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/RectificationApprDashboard.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/RectificationRequestList.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/RTGSReconciliation.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/RTGSReconciliationDashBoard.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/UPIReconciliation.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/AppJs/UPIReconciliationDashBoard.js">
+      <publishTime>10/12/2023 15:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/css/applayout.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/basic.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/data_entry_page_New.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/font-awesome.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/form.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/form.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/jquery.dataTables.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/css/modal.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/font/cake.eot">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/font/cake.svg">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/font/cake.ttf">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/font/cake.woff">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/font/cake.woff2">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner1.svg">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner2.svg">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner3.svg">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/icon_excel.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/icon_Search.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/icon_trash.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/MF-logo.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/position.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/transparent.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/zoomIn.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/zoomOut.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/C-EP-old.gif">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/C-EP.gif">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/download-button.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon_download%281%29.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon_download.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/man-user.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/MF-logo.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/vintage-key-outline.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/app.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/AppConfig.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/applayout.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap-datepicker.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/DashboardQuery.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/data_entry_page.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/Default.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/e-smart-zoom-jquery.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/FD.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery-1.9.1.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery-ui.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.1.8.3.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.dataTables.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.datetextentry.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/MFChart.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/modal.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/tab.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/utility.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/VisionAttendance.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/DataTable/jquery-dataTables.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/DataTable/jquery.dataTables.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/DataTable/jquery.table2excel.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/datepicker/bootstrap-datepicker.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/datepicker/bootstrap-datepicker.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/datepicker/datepicker3.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/datepicker/datepicker3.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/datepicker/formValidator.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/datetextentry/jquery.datetextentry.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/datetextentry/jquery.datetextentry.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/datetextentry/jquery.datetextentry.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/datetextentry/jquery.datetextentry.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/image-zoom/e-smart-zoom-jquery.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/image-zoom/ImageZoomstyles.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/image-zoom/ImageZoomstyles.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/images/calendar.gif">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/images/sort_asc.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/images/sort_both.png">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/Jquery-autocomplete/Jqueryautocomplete.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/Jquery-autocomplete/Jqueryautocomplete.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/Jquery-autocomplete/Jqueryautocomplete.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/Jquery-autocomplete/Jqueryautocomplete.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/.bower.json">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/.bower.json">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery.sumoselect/jquery.sumoselect.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery.sumoselect/jquery.sumoselect.min.js">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery.sumoselect/sumoselect.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery.sumoselect/sumoselect.min.css">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/Bill.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/BillDesk.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/BOTC_Offline.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/BOTC_Online.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/BTPCP_Offline.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/BTPCP_Online.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/BTP_Offline.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/BTP_Online.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/CAMSPay.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/CMS.csv">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/CMS.xls">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/CMS.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/CMS.zip">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/CMS_Collection.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/CP_Offline.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/CP_Online.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/DD_PAID_UNPAID_STATUS.xls">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/Enterprise_Offline.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/Enterprise_Online.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/HDFC.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/HDFC_EXCEL_UPLOAD.xls">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/NACH_SOFT_PAYMENT.XLS">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/NEFT_REJECTION.XLS">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/PAYU.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/QB_Offline.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/QB_Online.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/Reward_Offline.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/Reward_Online.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/RTGS_Template.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/RW_Reco.csv">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/TPSC.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/TPSL.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/UPI_Template.xlsx">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+    <File Include="wwwroot/Templates/WARRANT_PAID_UNPAID_STATUS.XLS">
+      <publishTime>03/13/2023 14:56:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

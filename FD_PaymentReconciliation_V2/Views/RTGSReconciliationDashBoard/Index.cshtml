@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript">
+    function InitFunction() {
+         var objectURLPath = { uploadedData: '@Url.Action("GetReconUploadData", "RTGSReconciliationDashBoard")', uploadedException: '@Url.Action("GetReconUploadException", "RTGSReconciliationDashBoard")',uploadedSuccess: '@Url.Action("GetReconUploadSuccess", "RTGSReconciliationDashBoard")'};
+            return objectURLPath;
+        }
+</script>
+<link href="~/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+
+<div class="container">
+    <div id="preloader" style="display: none;">
+        <div class="overlay">
+            <p>
+                Loading
+                <span class="spinner"></span>
+            </p>
+        </div>
+    </div>
+
+    <div id="dvMain" class="panel panel-default">
+
+        <div class="panel-body">
+            <div class="form-group">
+
+                <div class="row" style="padding-bottom: 10px;">
+                    <div class="col-md-12">
+                        <div class="coman_table_head  table-responsive">
+                            <table id="tblReconDetails" class="table table-default">
+                                <thead>
+                                    <tr>
+                                        <th style="display:none">Request No</th>
+                                        <th>Request ID</th>
+                                        <th>Request Created By</th>
+                                        <th>File Requested Date</th>
+                                        <th>Upload Count</th>
+                                        <th>Exception</th>
+                                        <th>Success</th>
+                                        <th>Process</th>
+                                        <th>Cancel</th>
+                                        <th>Reconciliation Remarks</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</div>
+<script src="~/AppJs/RTGSReconciliationDashBoard.js" asp-append-version="true"></script>
+<script src="~/js/jquery.dataTables.min.js"></script>

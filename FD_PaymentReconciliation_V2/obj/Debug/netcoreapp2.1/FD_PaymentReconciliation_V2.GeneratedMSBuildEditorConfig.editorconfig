@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = FD_PaymentReconciliation_V2
+build_property.ProjectDir = D:\Avinash\Super APP\Payment_Reco\FD_PaymentReconciliation_V2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

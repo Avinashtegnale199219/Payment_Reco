@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/js/jquery.dataTables.min.js"></script>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        Online Payment Reconciliation
+    </div>
+    <div class="panel-body">
+        <div class="form-horizontal">
+            <div class="row">
+
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label class="control-label col-sm-3">Upload <span class="red-text">*</span></label>
+                        <div class="col-sm-7">
+                            <label class="btn btn-red btn-medium btn-bs-file btn btn-lg btn-primary" style="float: left;">
+                                Browse File
+                                <input type="file" id="FileUpload1" style="display: none" class="KYC" data-showfile="lbl_IdentityProofName" @*name="Identity_Proof" *@ name="files" CssClass="KYC" ClientIDMode="Static">
+                                @*<asp:FileUpload ID="FileUpload1" data-showfile="lbl_IdentityProofName" name="Identity Proof" CssClass="KYC" ClientIDMode="Static" runat="server" />*@
+                            </label>
+                            @*<label id="lblRecoUpload" class="Label"></label>*@
+                            <span class="help-block" style="float: left; margin-left: 10px;"></span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label class="control-label col-sm-3">Remarks <span class="red-text">*</span></label>
+                        <div class="col-sm-3" style="word-wrap: break-word;">
+                            <span class="pull-right text-primary" style="padding-right: 2px; font-size: 11px; text-align: right;">Max: <span id="lblCountCharTextarea_1" class="lblCounter">500</span></span>
+                            <div>
+                               <textarea class="form-control" id="txt_remarks" runat="Server" cols="5" rows="3" placeholder="Remarks" tabindex="5" style="resize: none;" maxlength="500" onkeyup="Javascript:CharactersCount(this.id,lblCountCharTextarea_1);"></textarea>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <div class="col-sm-7 col-sm-offset-6">
+                            <br />
+                           @*<asp:Button ID="btn_UploadFile" CssClass="btn btn-red btn-medium" ClientIDMode="Static" runat="server" OnClick="btn_UploadFile_Click" Text="Upload" />*@
+                           @*<button id="btn_UploadFile" value="upload" Class="btn btn-red btn-medium">Upload</button>*@
+                            <input type="button" id="btn_UploadFile" value="Upload" name="upload" Class="btn btn-red btn-medium" />
+                            <a href="~/Templates/RW_Reco.csv" class="btn btn-red btn-small" style="height: 25px;">
+                                @*<img src="~/icon_download.png" style="height: 10px;" />*@
+                                <img src="~/img/download-button.png" style="height: 17px;" />
+                                <label class="control  btn btn-small">
+                                    <strong>Download Template</strong>
+                                </label>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<link href="~/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+<script src="~/AppJs/OnlinePaymentReconciliation_RW.js" asp-append-version="true"></script>

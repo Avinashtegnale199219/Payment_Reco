@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link href="~/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+
+<div class="container">
+    <div id="preloader" style="display: none;">
+        <div class="overlay">
+            <p>
+                Loading
+                <span class="spinner"></span>
+            </p>
+        </div>
+    </div>
+    <div id="dvMain" class="panel panel-default" style="margin: 10px 0 0 0;">
+        <div class="panel-heading">
+            RTGS UTR Upload
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="button" id="btnExporttoExcel" value="Export To Excel" class="btn btn-red" style="display:none;margin:0 0 10px 0;" />
+                    <div class="table-responsive" id="divRTGS_UTR_List">
+                        <table id="tableRtgsUtrUpload" class="table table-default">
+                            <thead class="tbl_header">
+                                <tr>
+                                    <th scope="col">Application No</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">FD Amount</th>
+                                    <th scope="col">Date of Payment</th>
+                                    <th scope="col">UTRN Uploaded Date</th>
+                                    <th scope="col">View</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyRtgsUtrUploadList"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="dvViewDocument" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h5 class="modal-title">Document</h5>
+            </div>
+            <div class="modal-body">
+                <div class="row" style="overflow-y: auto; max-height: 500px;">
+                    <div class="col-md-12 col-sm-12 col-xs-12 ">
+                        <img id="imgViewDocument" style="max-width: 100%; display: none;" />
+                        <iframe id="iframeViewDoc" width="100%" height="400px" style="display: none;"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer" style="">
+                <button type="button" id="btnOk" data-dismiss="modal" class="btn btn-red">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/jquery.dataTables.min.js"></script>
+<script src="~/lib/DataTable/jquery.table2excel.min.js"></script>
+<script src="~/AppJs/ESAT_UTR_RTGS_UploadReport.js" asp-append-version="true"></script>
+<script src="~/js/modal.min.js"></script>

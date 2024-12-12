@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/css/jquery.dataTables.min.css" rel="stylesheet" />
+<div class="container">
+    <div id="preloader" style="display: none;">
+        <div class="overlay">
+            <p>
+                Loading
+                <span class="spinner"></span>
+            </p>
+        </div>
+    </div>
+
+    <div id="pnlTable" class="panel panel-default">
+        <div class="panel-heading">
+            <label>Payment Mode Data Transfer</label>
+        </div>
+        <div class="panel-body">
+            <div class="row1">
+
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Application No :</label>
+
+                        <div class="col-md-8">
+                            <div class="input-group-addon">
+                                <input type="text" id="txtAppSearch" class="form-control" maxlength="20" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+
+                    <button class="btn btn-red" type="button" id="btnSearchApplicationForm">Search</button>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row1" id="tblrow" style="display:none">
+            <div class="table-responsive" style="overflow:auto;">
+                <table class="table table-default" id="tblApplData">
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th>Convertion Payment Mode</th>
+                            <th>Existing Payment Mode</th>
+                            <th>Application No</th>
+                            <th>Application Date</th>
+                            <th>Amount</th>
+                            <th>Name</th>
+                            <th>PAN</th>
+                            <th>Mobile</th>
+                            <th>Email</th>
+                            <th>Scheme</th>
+                            <th>Category</th>
+                            <th>Tenure</th>
+                            <th>Interest Rate</th>
+                            <th>Created By</th>
+                            <th>Created Date</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/jquery.dataTables.min.js"></script>
+<script src="~/AppJs/PaymentModeConversion.js" asp-append-version="true"></script>

@@ -1,0 +1,194 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>FD_PaymentReconciliation_V2</AssemblyName>
+    <RootNamespace>FD_PaymentReconciliation_V2</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="App_Code\BusinessObject\SessionLogBO.cs" />
+    <Compile Remove="App_Code\DataAccessLayer\SessionDAL.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.6.7" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Data.OleDb" Version="5.0.0" />
+    <PackageReference Include="System.Data.OracleClient" Version="1.0.8" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.4.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\AppJs\BankRevalidationReconciliation.js" />
+    <None Include="wwwroot\AppJs\BankRevalidationReconciliationDashboard.js" />
+    <None Include="wwwroot\AppJs\BankRevalidationRequest.js" />
+    <None Include="wwwroot\AppJs\BankRevalidationRequestDashboardL1.js" />
+    <None Include="wwwroot\AppJs\BankRevalidationRequestDashboardL2.js" />
+    <None Include="wwwroot\AppJs\BankRevalidation_FirstApproval.js" />
+    <None Include="wwwroot\AppJs\BankRevalidation_SecondApproval.js" />
+    <None Include="wwwroot\AppJs\BankRevalWrappCommUpload.js" />
+    <None Include="wwwroot\AppJs\CMSCollectionReconciliation.js" />
+    <None Include="wwwroot\AppJs\CMSCollectionReconciliationDashBoard.js" />
+    <None Include="wwwroot\AppJs\CMSReconciliation.js" />
+    <None Include="wwwroot\AppJs\CMSReconciliationDashBoard.js" />
+    <None Include="wwwroot\AppJs\EP_UTR_RTGS_UploadReport.js" />
+    <None Include="wwwroot\AppJs\ESAT_UTR_RTGS_UploadReport.js" />
+    <None Include="wwwroot\AppJs\HDFCSoftFeedReconciliation.js" />
+    <None Include="wwwroot\AppJs\HDFCSoftFeedReconciliationDashBoard.js" />
+    <None Include="wwwroot\AppJs\OfflineReconciliation.js" />
+    <None Include="wwwroot\AppJs\OfflineReconciliationDashBoard.js" />
+    <None Include="wwwroot\AppJs\OnlinePaymentReconciliationList_RW.js" />
+    <None Include="wwwroot\AppJs\OnlinePaymentReconciliation_RW.js" />
+    <None Include="wwwroot\AppJs\OnlineReconciliationDashBoard.js" />
+    <None Include="wwwroot\AppJs\PaymentModeConversion.js" />
+    <None Include="wwwroot\AppJs\Reconciliation.js" />
+    <None Include="wwwroot\AppJs\RectificationApprDashboard.js" />
+    <None Include="wwwroot\AppJs\RectificationRequestList.js" />
+    <None Include="wwwroot\AppJs\RTGSReconciliation.js" />
+    <None Include="wwwroot\AppJs\RTGSReconciliationDashBoard.js" />
+    <None Include="wwwroot\AppJs\UPIReconciliation.js" />
+    <None Include="wwwroot\AppJs\UPIReconciliationDashBoard.js" />
+    <None Include="wwwroot\font\cake.svg" />
+    <None Include="wwwroot\font\cake.woff2" />
+    <None Include="wwwroot\images\banner1.svg" />
+    <None Include="wwwroot\images\banner2.svg" />
+    <None Include="wwwroot\images\banner3.svg" />
+    <None Include="wwwroot\js\app.js" />
+    <None Include="wwwroot\js\AppConfig.js" />
+    <None Include="wwwroot\js\applayout.min.js" />
+    <None Include="wwwroot\js\bootstrap-datepicker.js" />
+    <None Include="wwwroot\js\DashboardQuery.js" />
+    <None Include="wwwroot\js\data_entry_page.js" />
+    <None Include="wwwroot\js\Default.js" />
+    <None Include="wwwroot\js\e-smart-zoom-jquery.min.js" />
+    <None Include="wwwroot\js\FD.js" />
+    <None Include="wwwroot\js\jquery-1.9.1.min.js" />
+    <None Include="wwwroot\js\jquery-ui.min.js" />
+    <None Include="wwwroot\js\jquery.1.8.3.min.js" />
+    <None Include="wwwroot\js\jquery.dataTables.min.js" />
+    <None Include="wwwroot\js\jquery.datetextentry.js" />
+    <None Include="wwwroot\js\jquery.min.js" />
+    <None Include="wwwroot\js\MFChart.js" />
+    <None Include="wwwroot\js\modal.min.js" />
+    <None Include="wwwroot\js\tab.js" />
+    <None Include="wwwroot\js\utility.js" />
+    <None Include="wwwroot\js\VisionAttendance.js" />
+    <None Include="wwwroot\lib\DataTable\jquery-dataTables.min.js" />
+    <None Include="wwwroot\lib\DataTable\jquery.table2excel.min.js" />
+    <None Include="wwwroot\lib\datepicker\bootstrap-datepicker.js" />
+    <None Include="wwwroot\lib\datepicker\bootstrap-datepicker.min.js" />
+    <None Include="wwwroot\lib\datepicker\formValidator.js" />
+    <None Include="wwwroot\lib\datetextentry\jquery.datetextentry.js" />
+    <None Include="wwwroot\lib\datetextentry\jquery.datetextentry.min.js" />
+    <None Include="wwwroot\lib\image-zoom\e-smart-zoom-jquery.min.js" />
+    <None Include="wwwroot\lib\Jquery-autocomplete\Jqueryautocomplete.js" />
+    <None Include="wwwroot\lib\Jquery-autocomplete\Jqueryautocomplete.min.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery.sumoselect\jquery.sumoselect.js" />
+    <None Include="wwwroot\lib\jquery.sumoselect\jquery.sumoselect.min.js" />
+    <None Include="wwwroot\Templates\Bill.xlsx" />
+    <None Include="wwwroot\Templates\BillDesk.xlsx" />
+    <None Include="wwwroot\Templates\BOTC_Offline.xlsx" />
+    <None Include="wwwroot\Templates\BOTC_Online.xlsx" />
+    <None Include="wwwroot\Templates\BTPCP_Offline.xlsx" />
+    <None Include="wwwroot\Templates\BTPCP_Online.xlsx" />
+    <None Include="wwwroot\Templates\BTP_Offline.xlsx" />
+    <None Include="wwwroot\Templates\BTP_Online.xlsx" />
+    <None Include="wwwroot\Templates\CAMSPay.xlsx" />
+    <None Include="wwwroot\Templates\CMS.csv" />
+    <None Include="wwwroot\Templates\CMS.xls" />
+    <None Include="wwwroot\Templates\CMS.xlsx" />
+    <None Include="wwwroot\Templates\CMS.zip" />
+    <None Include="wwwroot\Templates\CMS_Collection.xlsx" />
+    <None Include="wwwroot\Templates\CP_Offline.xlsx" />
+    <None Include="wwwroot\Templates\CP_Online.xlsx" />
+    <None Include="wwwroot\Templates\DD_PAID_UNPAID_STATUS.xls" />
+    <None Include="wwwroot\Templates\Enterprise_Offline.xlsx" />
+    <None Include="wwwroot\Templates\Enterprise_Online.xlsx" />
+    <None Include="wwwroot\Templates\HDFC.xlsx" />
+    <None Include="wwwroot\Templates\HDFC_EXCEL_UPLOAD.xls" />
+    <None Include="wwwroot\Templates\NACH_SOFT_PAYMENT.XLS" />
+    <None Include="wwwroot\Templates\NEFT_REJECTION.XLS" />
+    <None Include="wwwroot\Templates\PAYU.xlsx" />
+    <None Include="wwwroot\Templates\QB_Offline.xlsx" />
+    <None Include="wwwroot\Templates\QB_Online.xlsx" />
+    <None Include="wwwroot\Templates\Reward_Offline.xlsx" />
+    <None Include="wwwroot\Templates\Reward_Online.xlsx" />
+    <None Include="wwwroot\Templates\RTGS_Template.xlsx" />
+    <None Include="wwwroot\Templates\RW_Reco.csv" />
+    <None Include="wwwroot\Templates\TPSC.xlsx" />
+    <None Include="wwwroot\Templates\TPSL.xlsx" />
+    <None Include="wwwroot\Templates\UPI_Template.xlsx" />
+    <None Include="wwwroot\Templates\WARRANT_PAID_UNPAID_STATUS.XLS" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ApiRequestor">
+      <HintPath>\\172.30.0.223\Central Document\C.Kapil\.Net Core Template\MMFSL Bin\2.1\ApiRequestor.dll</HintPath>
+    </Reference>
+    <Reference Include="DBHelper">
+      <HintPath>\\172.30.0.223\Central Document\C.Kapil\.Net Core Template\MMFSL Bin\2.1\DBHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Extension">
+      <HintPath>\\172.30.0.223\Central Document\C.Kapil\.Net Core Template\MMFSL Bin\2.1\Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="Impersonate">
+      <HintPath>\\172.30.0.223\Central Document\@dlls\Impersonate.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>\\172.30.0.223\Central Document\SatishPawar_100004154\DLL\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="MvcOptionsExtensions">
+      <HintPath>\\172.30.0.223\central document\@dlls\MvcOptionsExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="office">
+      <HintPath>..\..\..\..\Analysis\dlls\Legal_Bin\Bin\office.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>..\..\..\..\Analysis\dlls\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="UserApplicationDtls">
+      <HintPath>\\172.30.0.223\Central Document\C.Kapil\.Net Core Template\MMFSL Bin\2.1\UserApplicationDtls.dll</HintPath>
+    </Reference>
+    <Reference Include="WA_FD_CP_AUTHENTICATION_MODEL">
+      <HintPath>\\172.30.0.223\Central Document\SatishPawar_100004154\Handover\PaymentReconciliation\FD_PaymentReconciliation_V2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\WA_FD_CP_AUTHENTICATION_MODEL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\BankRevalWrapperCommUpload\Index.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>

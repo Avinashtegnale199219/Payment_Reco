@@ -1,0 +1,117 @@
+﻿<style>
+    .table-responsive1 {
+        max-height: 450px;
+        overflow-y: auto;
+    }
+
+        .table-responsive1 .table.table-default {
+            border-collapse: separate;
+        }
+
+            .table-responsive1 .table.table-default > tbody > tr > td,
+            .table-responsive1 .table.table-default > tbody > tr > th,
+            .table-responsive1 .table.table-default > tfoot > tr > td,
+            .table-responsive1 .table.table-default > thead > tr > th {
+                border-color: #dedede;
+            }
+</style>
+<div class="panel panel-default panel-search" style="border-color: transparent;background-color: transparent;box-shadow: none;">
+    <div class="panel-body2" style="padding: 0;">
+        <div class="row" id="pnlTable" style="margin: 0;background-color: #fff;padding: 15px;display:none;">
+            <div class="col-md-12">
+                <button type="button" id="btnExportToExcel" class="btn btn-red" style="margin: 0 0 5px 0;padding: 4px 5px 4px;line-height: 0;height: auto;float: right;">
+                        <img src="~/images/icon_excel.png" style="width: 20px;" />
+                    </button>
+                @*<button type="button" id="btnExportToXLS" class="btn btn-red" style="margin: 0 0 5px 0;padding: 4px 5px 4px;line-height: 0;height: auto;float: right;">
+                  xls 
+                </button>
+                <button type="button" id="btnExportToXLSX" class="btn btn-red" style="margin: 0 0 5px 0;padding: 4px 5px 4px;line-height: 0;height: auto;float: right;">
+                   xlsx
+                </button>*@
+            </div>
+            <div class="table-responsive table-responsive1 col-md-12" id="tblrow">
+                <table class="table table-default" id="tblData">
+                    <thead>
+                        <tr>
+
+                            <th>Agency_Cd</th>
+                            <th>Agency_Name</th>
+                            <th>Agency_Broker_Code</th>
+                            <th>Agency_Broker_Name</th>
+                            <th>Broker_Code</th>
+                            <th>Broker_Name</th>
+                            <th>Sub_Broker_Code</th>
+
+                            <th>Application_No</th>
+                            <th>Sourcing_Mode</th>
+                            <th>IND/NON-IND</th>
+                            <th>Application_Type</th>
+
+                            <th>Investor_Name</th>
+                            <th>Investor_Mobile</th>
+                            <th>Investor_Email</th>
+                            <th>Payment_Mode</th>
+                            <th>Amount</th>
+                            <th>FO_Entry_By</th>
+                            <th>FO_Entry_Date</th>
+                            <th>BO_Maker_Entry_By</th>
+                            <th>BO_Maker_Entry_Date</th>
+                            <th>BO_Checker_Entry_By</th>
+                            <th>BO_Checker_Entry_Date</th>
+                            <th>FrontOffice_BackOffice_TimeDiff</th>
+                            <th>Maker_Checker_TimeDiff</th>
+                            <th>App_Entry_Status</th>
+                            <th>Is_Short_URL_Generated</th>
+                            <th>Is_Disclaimer_Accepted</th>
+                            <th>Disclaimer_Accepted_Date</th>
+
+                            <th>Payment_Date</th>
+                            <th>Payment_Request_Status</th>
+                            <th>Payment_Response_Status</th>
+                            <th>Payment_Txn_Id</th>
+                            <th>Payment_Status</th>
+                            <th>Payment_Gateway</th>
+
+                            <th>Payment_Reco_Status</th>
+                            <th>FDR_Status</th>
+                            <th>FDR_No</th>
+                            <th>FDR_DATE</th>
+
+                            <th>FOLIO_No</th>
+
+                            <th>PIS_Status</th>
+                            <th>Is_PIS_Generated</th>
+                            <th>PIS_Generated_Date</th>
+                            <th>CMS_Location</th>
+
+                            <th>Cancelled_By</th>
+                            <th>Cancelled_Date</th>
+                            <th>Cancelled_Remark</th>
+
+                            <th>Drawn_Bank</th>
+                            <th>Drawn_Bank_Branch</th>
+                            <th>Cheque_Date</th>
+                            <th>Scheme</th>
+                            <th>Category</th>
+                            <th>Tenure</th>
+                            <th>Int_Rate</th>
+                            <th>Existing/Fresh</th>
+
+                            <th>Investor_PAN</th>
+                            <th>Source</th>
+                            <th>Sub_Agency_Code</th>
+                            <th>Sub_Agency_Name</th>
+                            <th>Manager</th>
+
+                            <th>User_Branch_Code</th>
+                            <th>User_Branch_Name</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

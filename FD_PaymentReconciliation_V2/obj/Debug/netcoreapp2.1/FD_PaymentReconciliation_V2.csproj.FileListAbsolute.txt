@@ -1,0 +1,234 @@
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.deps.json
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.runtimeconfig.json
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.runtimeconfig.dev.json
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.pdb
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.Views.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.Views.pdb
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\ApiRequestor.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\DBHelper.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\EPPlus.Core.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Extension.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Impersonate.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Microsoft.Office.Interop.Excel.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\MvcOptionsExtensions.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\office.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\UserApplicationDtls.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\WA_FD_CP_AUTHENTICATION_MODEL.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\ApiRequestor.pdb
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\DBHelper.pdb
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Extension.pdb
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.csprojAssemblyReference.cache
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.csproj.CoreCompileInputs.cache
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorAssemblyInfo.cache
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorAssemblyInfo.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.AssemblyInfoInputs.cache
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.AssemblyInfo.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.TagHelpers.input.cache
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.TagHelpers.output.cache
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorCoreGenerate.cache
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationReconciliationDashboard\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationReconciliation\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequest\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalWrapperCommUpload\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSCollectionReconciliationDashBoard\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSCollectionReconciliation\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSReconciliationDashBoard\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSReconciliation\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Default\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\EP_UTR_RTGS_UploadReport\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Error\Authorization.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Error\Expired.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Error\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\ESAT_UTR_RTGS_UploadReport\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\HDFCSoftFeedReconciliationDashBoard\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\HDFCSoftFeedReconciliation\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OfflineReconciliationDashBoard\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OfflineReconciliation\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OnlinePaymentReconciliationList_RW\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OnlinePaymentReconciliation_RW\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OnlineReconciliationDashBoard\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Partial_View\AppMenus.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Partial_View\_MIS_REPORT.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Partial_View\_Search.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\PaymentModeConversion\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Reconciliation\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RectificationApprDashboard\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RectificationRequestList\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RTGSReconciliationDashBoard\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RTGSReconciliation\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\UPIReconciliationDashBoard\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\UPIReconciliation\Index.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorTargetAssemblyInfo.cache
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorTargetAssemblyInfo.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.Views.pdb
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.csproj.CopyComplete
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.dll
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.pdb
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequestApproval\View.g.cshtml.cs
+F:\WorkingDrive\100004481\Bitbucket\PROJ_MMFSL_ADM_CUSTOMER_PORTAL\repo-mf-fd-payment-reconciliation-v2\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequestDashboard\View.g.cshtml.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\appsettings.json
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\bundleconfig.json
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Connected Services\DMS_DOCUMENT_SERVICE\ConnectedService.json
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Connected Services\DMS_UAT_DOCUMENT_SERVICE\ConnectedService.json
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.deps.json
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.runtimeconfig.json
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.runtimeconfig.dev.json
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.pdb
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.Views.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.Views.pdb
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\ApiRequestor.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\DBHelper.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Extension.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Impersonate.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Microsoft.Office.Interop.Excel.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\MvcOptionsExtensions.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\office.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\UserApplicationDtls.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\WA_FD_CP_AUTHENTICATION_MODEL.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\ApiRequestor.pdb
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\DBHelper.pdb
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Extension.pdb
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\office.xml
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.csproj.AssemblyReference.cache
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.GeneratedMSBuildEditorConfig.editorconfig
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.AssemblyInfoInputs.cache
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.AssemblyInfo.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.csproj.CoreCompileInputs.cache
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorAssemblyInfo.cache
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorAssemblyInfo.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.sourcelink.json
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.TagHelpers.input.cache
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.TagHelpers.output.cache
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorCoreGenerate.cache
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationReconciliationDashboard\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationReconciliation\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequestDashboard_L1\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequestDashboard_L2\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequest\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequest_FirstApproval\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequest_SecondApproval\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalWrapperCommUpload\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSCollectionReconciliationDashBoard\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSCollectionReconciliation\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSReconciliationDashBoard\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSReconciliation\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Default\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\EP_UTR_RTGS_UploadReport\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Error\Authorization.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Error\Expired.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Error\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\ESAT_UTR_RTGS_UploadReport\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\HDFCSoftFeedReconciliationDashBoard\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\HDFCSoftFeedReconciliation\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OfflineReconciliationDashBoard\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OfflineReconciliation\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OnlinePaymentReconciliationList_RW\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OnlinePaymentReconciliation_RW\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OnlineReconciliationDashBoard\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Partial_View\AppMenus.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Partial_View\_MIS_REPORT.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Partial_View\_Search.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\PaymentModeConversion\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Reconciliation\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RectificationApprDashboard\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RectificationRequestList\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RTGSReconciliationDashBoard\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RTGSReconciliation\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\UPIReconciliationDashBoard\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\UPIReconciliation\Index.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorTargetAssemblyInfo.cache
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorTargetAssemblyInfo.cs
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.Views.pdb
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_Payme.D274C656.Up2Date
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.dll
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.pdb
+F:\WorkingDrive\100004659\BitBucket\Payment reconcillation\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.genruntimeconfig.cache
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.csproj.AssemblyReference.cache
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.AssemblyInfoInputs.cache
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.AssemblyInfo.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.csproj.CoreCompileInputs.cache
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorAssemblyInfo.cache
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorAssemblyInfo.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.sourcelink.json
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.dll
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.pdb
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\appsettings.json
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\bundleconfig.json
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Connected Services\DMS_DOCUMENT_SERVICE\ConnectedService.json
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Connected Services\DMS_UAT_DOCUMENT_SERVICE\ConnectedService.json
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.deps.json
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.runtimeconfig.json
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.runtimeconfig.dev.json
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.dll
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.pdb
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.Views.dll
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.Views.pdb
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\ApiRequestor.dll
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\DBHelper.dll
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Extension.dll
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Impersonate.dll
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Microsoft.Office.Interop.Excel.dll
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\MvcOptionsExtensions.dll
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\UserApplicationDtls.dll
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\WA_FD_CP_AUTHENTICATION_MODEL.dll
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\ApiRequestor.pdb
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\DBHelper.pdb
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\bin\Debug\netcoreapp2.1\Extension.pdb
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.TagHelpers.input.cache
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.TagHelpers.output.cache
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorCoreGenerate.cache
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationReconciliationDashboard\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationReconciliation\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequestDashboard_L1\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequestDashboard_L2\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequest\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequest_FirstApproval\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalidationRequest_SecondApproval\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\BankRevalWrapperCommUpload\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSCollectionReconciliationDashBoard\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSCollectionReconciliation\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSReconciliationDashBoard\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\CMSReconciliation\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Default\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\EP_UTR_RTGS_UploadReport\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Error\Authorization.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Error\Expired.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Error\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\ESAT_UTR_RTGS_UploadReport\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\HDFCSoftFeedReconciliationDashBoard\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\HDFCSoftFeedReconciliation\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OfflineReconciliationDashBoard\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OfflineReconciliation\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OnlinePaymentReconciliationList_RW\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OnlinePaymentReconciliation_RW\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\OnlineReconciliationDashBoard\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Partial_View\AppMenus.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Partial_View\_MIS_REPORT.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Partial_View\_Search.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\PaymentModeConversion\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Reconciliation\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RectificationApprDashboard\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RectificationRequestList\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RTGSReconciliationDashBoard\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\RTGSReconciliation\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\UPIReconciliationDashBoard\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\UPIReconciliation\Index.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorTargetAssemblyInfo.cache
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.RazorTargetAssemblyInfo.cs
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.Views.pdb
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_Payme.D274C656.Up2Date
+E:\Working Drive\100004659\repo-mf-fd-payment-reconciliation\FD_PaymentReconciliation_V2\obj\Debug\netcoreapp2.1\FD_PaymentReconciliation_V2.genruntimeconfig.cache

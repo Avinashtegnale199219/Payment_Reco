@@ -1,0 +1,226 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/css/jquery.dataTables.min.css" rel="stylesheet" />
+<script type="text/javascript">
+    function InitFunction() {
+        var objectURLPath = { uploadedData: '@Url.Action("GetReconUploadData", "BankRevalidationReconciliationDashboard")'};
+            return objectURLPath;
+        }
+</script>
+
+<style>
+    /*-----modal Error style----*/
+    .ModelContDiv {
+        font-size: 13px;
+    }
+
+    .ModelCustmError {
+    }
+
+        .ModelCustmError .modal-header .close {
+            font-size: 18px;
+            line-height: 22px;
+            width: 24px;
+            height: 24px;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .ModelCustmError .modal-body {
+            padding: 15px;
+        }
+
+            .ModelCustmError .modal-body .ModelContDiv {
+                background-color: #ebebeb;
+                width: 100%;
+                padding: 10px;
+                font-size: 14px;
+            }
+
+                .ModelCustmError .modal-body .ModelContDiv > p:last-child {
+                    margin-bottom: 0;
+                }
+
+        .ModelCustmError .modal-footer {
+            text-align: center;
+        }
+
+            .ModelCustmError .modal-footer .comnBtn3 {
+                width: auto;
+                height: auto;
+                float: none;
+                display: inline-block;
+                border: 2px solid #333333;
+                border-top-color: rgb(51, 51, 51);
+                border-right-color: rgb(51, 51, 51);
+                border-bottom-color: rgb(51, 51, 51);
+                border-left-color: rgb(51, 51, 51);
+                color: #333333;
+                padding: 5px 12px 4px;
+                margin: 5px;
+                font-size: 12px;
+                background-color: #ffffff;
+                font-weight: 600;
+                border-radius: 2px;
+                min-width: 75px;
+            }
+
+                .ModelCustmError .modal-footer .comnBtn3:hover,
+                .ModelCustmError .modal-footer .comnBtn3:focus,
+                .ModelCustmError .modal-footer .comnBtn3:active {
+                    background-color: #e21937;
+                    color: #ffffff;
+                    border-color: transparent;
+                }
+
+
+    .ModelContDiv.ErrorContent {
+        color: #ff0000;
+    }
+    /*-----//modal Error style----*/
+    /*-----modal success style----*/
+    .ModelCustmSucc {
+    }
+
+        .ModelCustmSucc .modal-header .close {
+            font-size: 18px;
+            line-height: 22px;
+            width: 24px;
+            height: 24px;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .ModelCustmSucc .modal-body {
+            padding: 15px;
+        }
+
+            .ModelCustmSucc .modal-body .ModelContDiv {
+                background-color: #ebebeb;
+                width: 100%;
+                padding: 10px;
+                font-size: 14px;
+            }
+
+                .ModelCustmSucc .modal-body .ModelContDiv > p:last-child {
+                    margin-bottom: 0;
+                }
+
+        .ModelCustmSucc .modal-footer {
+            text-align: center;
+        }
+
+            .ModelCustmSucc .modal-footer .comnBtn3 {
+                width: auto;
+                height: auto;
+                float: none;
+                display: inline-block;
+                border: 2px solid #333333;
+                border-top-color: rgb(51, 51, 51);
+                border-right-color: rgb(51, 51, 51);
+                border-bottom-color: rgb(51, 51, 51);
+                border-left-color: rgb(51, 51, 51);
+                color: #333333;
+                padding: 5px 12px 4px;
+                margin: 5px;
+                font-size: 12px;
+                background-color: #ffffff;
+                font-weight: 600;
+                border-radius: 2px;
+                min-width: 75px;
+            }
+
+                .ModelCustmSucc .modal-footer .comnBtn3:hover,
+                .ModelCustmSucc .modal-footer .comnBtn3:focus,
+                .ModelCustmSucc .modal-footer .comnBtn3:active {
+                    background-color: #e21937;
+                    color: #ffffff;
+                    border-color: transparent;
+                }
+
+
+    .ModelContDiv.SuccessContent {
+        color: #047904;
+    }
+    /*-----//modal success style----*/
+</style>
+
+<div class="container">
+    <div id="preloader" style="display: none;">
+        <div class="overlay">
+            <p>
+                Loading
+                <span class="spinner"></span>
+            </p>
+        </div>
+    </div>
+    <br/><br />
+    <div id="dvMain" class="panel panel-default">
+
+        <div class="panel-body">
+            <div class="form-group">
+
+                <div class="row" style="padding-bottom: 10px;">
+                    <div class="col-md-12">
+                        <div class="coman_table_head  table-responsive">
+                            <table id="tblReconDetails" class="table table-default">
+                                <thead>
+                                    <tr>
+                                        <th style="display:none">Request No</th>
+                                        <th>Request ID</th>
+                                        <th>Request Created By</th>
+                                        <th>File Requested Date</th>
+                                        <th>File Name</th>
+                                        <th>Upload Count</th>
+                                        <th>Exception</th>
+                                        <th>Success</th>
+                                        <th>Process</th>
+                                        <th>Cancel</th>
+                                        <th>Reconciliation Remarks</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="ModelError" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-md" style="">
+
+        <!-- Modal content-->
+        <div class="modal-content ModelCustmError">
+            <div class="modal-header ErrorModelHeader">
+                <button type="button" class="close" data-dismiss="modal" id="lblclose">&times;</button>
+                <h4 class="modal-title">Error</h4>
+            </div>
+            <div class="modal-body" style="width: 100%;">
+                <div id="dvErrorMsg" class="ModelContDiv ErrorContent">
+
+                </div>
+
+                @*<div class="text-center">
+                        <button type="button" id="" class="comnBtn2" data-dismiss="modal">OK</button>
+                    </div>*@
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="" class="comnBtn3" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="~/AppJs/BankRevalidationReconciliationDashboard.js"></script>
+<script src="~/js/jquery.dataTables.min.js"></script>
+<script src="~/js/modal.min.js"></script>

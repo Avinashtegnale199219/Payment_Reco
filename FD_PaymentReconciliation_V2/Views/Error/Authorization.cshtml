@@ -1,0 +1,84 @@
+﻿@{
+    Layout = null;
+    string CDNRootPath = Startup.Configuration["AppCssCDNPath"].ToString();
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Authorization</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="@String.Concat(CDNRootPath,"favicon.ico")" type="image/x-icon" />
+    <link rel="icon" href="@String.Concat(CDNRootPath,"favicon.ico")" type="image/x-icon" />
+    <link href="@String.Concat(CDNRootPath,"css/apperror.min.css")" rel="stylesheet" />
+</head>
+<body class="hold-transition fixed">
+
+    <div class="wrapper">
+        <header class="main-header">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle -->
+                    <div class="navbar-header">
+                        <i class="demo-icon icon-menu navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">&#xf0c9;</i>
+                        <a class="navbar-brand" href="#">
+                            <img src="@String.Concat(CDNRootPath,"images/MF-logo.png")" class="img-responsive" />
+                        </a>
+                    </div>
+
+                    <!-- Desktop Profile -->
+                    <div class="collapse navbar-collapse desktop-profile">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a id="lnkHome" asp-area="" asp-controller="Home" asp-action="Home"><i class="demo-icon icon-home">&#xe802;</i>Home</a>
+                            </li>
+                            <li>
+                                <a id="lnkLogout" asp-area="" asp-controller="Home" asp-action="LogOut"><i class="demo-icon icon-off">&#xe804;</i>Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Second Navigation -->
+            <nav class="navbar second-navbar">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <!-- Mobile Profile -->
+                    <ul class="nav mobile-profile">
+                        <li>
+                            <a asp-area="" asp-controller="Home" asp-action="Home"><i class="demo-icon icon-home">&#xe802;</i>Home</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-controller="Home" asp-action="LogOut"><i class="demo-icon icon-off">&#xe804;</i>Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="container page-body">
+                <p style="font-size: 100px; color: #a1a1a1;">
+                    Access Rights
+                </p>
+                <p style="font-size: 25px; color: #6d6e70;">
+                    You do not have right for this Sub Module, Kinldy contact with Administrator ..
+                </p>
+            </div>
+        </div>
+
+        <footer class="main-footer">
+            <div class="container-fluid">
+                <p class="pull-left">&copy; 2018 Mahindra Finance</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="@String.Concat(CDNRootPath,"js/jquery.min.js")"></script>
+    <script src="@String.Concat(CDNRootPath,"js/applayout.min.js")"></script>
+    <script src="@String.Concat(CDNRootPath,"js/app.js")"></script>
+
+</body>
+</html>

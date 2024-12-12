@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+<link href="~/css/jquery.dataTables.min.css" rel="stylesheet" />
+<div class="panel panel-default" id="divSearch">
+
+    <div class="panel-body">
+        <div style="height: 300px; overflow: auto;">
+            <div class="table-responsive">
+                <table class="table table-default" id="tbl_RectificationList">
+                    <thead>
+                        <tr>
+                            <th>Sequence No.</th>
+                            <th>Rectification Sequence No.</th>
+                            <th>Created By</th>
+                            <th>Created Date</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody_RectificationList">
+                        <tr>
+                            <td colspan="4" style="text-align: left;">No Details Found</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel panel-default" id="divApproval" style="display:none">
+    <div class="panel-heading">
+        Rectification Approval List
+        <a href="javascript:Reset();" class="btn btn-red btn-medium pull-right" style="padding: 2px 8px; margin-top: -2px;">Back</a>
+    </div>
+    <div class="panel-body">
+        <div style="max-height: 300px; overflow: auto;">
+            <div class="table-responsive">
+                <table class="table table-default" id="tbl_RectList">
+                    <thead>
+                        <tr>
+                            <td colspan="3"></td>
+                            <td colspan="4" style="text-align: center;"><b>FD Details</b></td>
+                            <td colspan="4" style="text-align: center;"><b>Payment Details</b></td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <input type="checkbox" id="chkSelectAllCalls" class="SearchAll" />
+                            </th>
+                            <th>App No.</th>
+                            <th>Cust Name.</th>
+                            <th>FD Amt</th>
+                            <th>Trans ID</th>
+                            <th>Trans Date</th>
+                            <th>Status</th>
+                            <th>Trans Amt</th>
+                            <th>Trans ID</th>
+                            <th>Trans Date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody_RectList">
+                        <tr>
+                            <td colspan="8" style="text-align: left;">No Details Found</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="div_Remarks">
+                <br />
+                <div class="pull-left"><b>Requestor Remarks: <span class="red-text "> *</span></b></div>
+                <div class="pull-left" id="Remarks"></div>
+                <input type="hidden" id="hdnHdrReq" />
+                <input type="hidden" id="hdnHdrRectReq" />
+
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="panel-body hidden" id="div_Rectify">
+                <div class="row">
+                    <div class="col-sm-3" style="word-wrap: break-word;">
+                        <span class="pull-right text-primary" style="padding-right: 2px; font-size: 11px; text-align: right;">Max: <span id="lblCountCharTextarea_1" class="lblCounter">500</span></span>
+                        <div>
+                            <textarea class="form-control" id="txt_remarks" cols="5" rows="3" placeholder="Remarks" tabindex="1" style="resize: none;" maxlength="500" onkeyup="Javascript:CharactersCount(this.id,lblCountCharTextarea_1);"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-sm-1">
+                        <input type="button" id="btn_Approve" value="Approve" class="btn btn-red" />
+                    </div>
+                    <div class="col-sm-1">
+                        <input type="button" id="btn_Reject" value="Reject" class="btn btn-red" />
+                    </div>
+                    <div class="col-sm-1 row">
+                        <input type="button" id="btn_cancel" value="Cancel" class="btn btn-red" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/jquery.dataTables.min.js"></script>
+<script src="~/AppJs/RectificationApprDashboard.js" asp-append-version="true"></script>
+@*<script type="text/javascript">
+    $(document).ready(function myfunction() {
+        $("#preloader").hide();
+        $('#tbl_RectificationList').prepend($("<thead></thead>").append($(this).find("tr:first"))).DataTable({
+            "order": [[2, "asc"]],
+            initComplete: function () {
+                $("#preloader").hide();
+            }
+        });
+
+    })
+
+
+</script>*@
+

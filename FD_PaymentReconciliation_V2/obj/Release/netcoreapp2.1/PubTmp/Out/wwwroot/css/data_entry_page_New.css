@@ -1,0 +1,1119 @@
+﻿.panel-heading {
+    padding: 2px 15px;
+}
+
+.Addtional_Investor_Information, .Investor_Information {
+    width: 100%;
+    float: left;
+    height: auto;
+}
+
+.panel.panel-default .form-control {
+    height: 20px !important;
+    padding: 0px 5px;
+    font-size: 10.5px;
+}
+
+.panel.panel-default .form-group {
+    margin-bottom: 0;
+}
+
+.panel.panel-default label {
+    font-size: 10.5px;
+}
+
+.verify {
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.btnOpenDetailModel_body, .guardian_body, .show_details, .SecondHolderDetlDiv, .ThirdHolderDetlDiv, .NomineeDetlDiv, .OvdRefDiv, .OverSeasAddressDiv, .FatcaDetailsDiv, .RemarksDiv, .trNMinor, .trSHMinor, .trRenewalFor {
+    display: none;
+}
+
+.table.table-default > thead > tr > td, .table.table-default > thead > tr > th,
+.table.table-default > tbody > tr > td, .table.table-default > tbody > tr > th, .table.table-default > tfoot > tr > td, .table.table-default > tfoot > tr > th {
+    font-size: 10px;
+}
+
+.table.table-default > thead > tr > td, .table.table-default > thead > tr > th {
+    padding: 0px 1px;
+}
+
+.panel {
+    margin-bottom: 30px;
+}
+
+    .panel.panel-default > .panel-body {
+        max-height: 500px;
+        overflow: auto;
+        padding: 2px 0 2px 0;
+    }
+
+/*.PosSticky {
+    
+}*/
+.data_entry_head .form-group > div, .data_entry_head .form-group > label {
+    width: 100%;
+}
+
+/*div.PosSticky {
+    position: -webkit-sticky;
+    position: fixed;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    font-size: 20px;
+    z-index: 1;
+    padding: 15px 15px;
+    border-bottom: 1px solid #eeeeee;
+    box-shadow: 0 2px 4px #00000020;
+}*/
+
+.TitleStyle {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 5px 0;
+    color: #e51937;
+    background-color: #dddddd;
+    font-weight: 600;
+    padding: 2px 10px;
+    font-size: 14px;
+}
+
+    .TitleStyle > button {
+        float: none;
+        padding: 2px 10px;
+        margin: 0 10px;
+    }
+
+.TitleStyle2 {
+    font-size: 12px;
+    width: 90%;
+    height: auto;
+    float: left;
+    margin: 0 15px 0 0 !important;
+    color: #e51937 !important;
+    text-decoration: underline;
+}
+
+span.jq-dte {
+    padding: 0 6px;
+    margin: 0;
+    width: 100%;
+    font-size: 10.5px;
+    float: left;
+}
+
+    span.jq-dte input {
+        height: 18px;
+    }
+
+span.jq-dte, span.jq-dte-inner {
+    margin: 0;
+    background-color: transparent;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/*style for page data_entry_page2 */
+.ScrollDivClass2 {
+    height: 310px;
+    overflow: auto;
+    border-top: 1px solid #dddddd;
+}
+
+
+/*style for page data_entry_page3 */
+.ScrollDivClass3 {
+    /*height: 380px;*/
+    max-height: 380px;
+    overflow: auto;
+    border-top: 1px solid #dddddd;
+}
+
+.TitleStyle > button.Page3BtnStyle {
+    padding: 0px 6px;
+}
+
+.btn-red {
+    padding: 0 10px;
+    font-size: 11px;
+}
+
+
+/*new css*/
+.panel-body .form-group .control-label {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: left;
+    margin: 0;
+    line-height: 12px;
+}
+
+.panel-body .form-group label {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: left;
+    margin: 0;
+    line-height: 12px;
+}
+
+.TopMargin12 {
+    margin-top: 12px;
+}
+
+.form-horizontal,
+.form-group {
+    font-size: 10.5px;
+}
+
+input[type="checkbox"] {
+    float: left;
+    /*margin: 0;*/
+}
+
+input[type="radio"] {
+    margin: 0;
+    position: relative;
+    top: 2px;
+}
+
+
+
+.tableStyle {
+    width: 100%;
+    height: auto;
+}
+
+    .tableStyle td {
+        width: 25%;
+    }
+
+.TblTitleClass {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0;
+    font-size: 12px;
+    background-color: #dddddd;
+    padding: 1px 20px;
+    color: #e51937;
+    border: 1px solid #b1b1b1;
+    position: relative;
+}
+
+.InnerDataTblClass {
+    max-width: 535px;
+    overflow: auto;
+}
+
+.ViewImageDiv {
+    width: 100%;
+    height: 430px;
+    float: left;
+    min-height: 400px;
+    border: 1px solid #dddddd;
+    /*overflow: hidden;*/
+}
+
+.btn-small {
+    height: 17px;
+}
+
+.AddDataDiv {
+    width: 100%;
+    height: auto;
+    float: left;
+    /*max-height: 490px;*/
+    /*max-height: auto;*/
+    overflow: auto;
+}
+
+.panel-body > div.col-md-6 {
+    padding: 0 0 0 0;
+}
+
+
+/*for merging common head*/
+.data_entry_head {
+    margin: 0 auto 5px auto;
+}
+
+.MaxWidth130 {
+    max-width: 130px;
+}
+
+input[type="file"] {
+    font-size: 11px;
+}
+
+.MarginRight15 {
+    margin-right: 15px;
+}
+
+.MarginBottom5 {
+    margin-bottom: 5px;
+}
+
+.MarginTop5 {
+    margin-top: 5px;
+}
+
+.BtnDocView {
+    padding: 1.5px 10px;
+    float: left;
+    margin-right: 5px;
+}
+
+.CheckBoxPosSet {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.FontBold {
+    font-weight: bold;
+}
+
+.panel.panel-default label.FontSize12,
+.panel.panel-default .form-control.FontSize12 {
+    font-size: 12px;
+}
+
+.panel.panel-default .form-control.TextAreaInput {
+    max-width: 100%;
+    height: auto !important;
+    resize: none;
+}
+
+
+
+
+@media(max-width:767px) {
+    .panel.panel-default > .panel-body {
+        max-height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*New css 02032019*/
+.table.table-default.OvdTableClass > thead > tr > th,
+.table.table-default.OvdTableClass > tbody > tr > td {
+    padding: 1px;
+    width: 20%;
+    float: none;
+    text-align: left;
+}
+
+    .table.table-default.OvdTableClass > tbody > tr > td input.form-control {
+        margin: 0;
+    }
+
+span.jq-dte span.jq-dte-errorbox {
+    top: 20px !important;
+    left: 0 !important;
+    z-index: 1;
+    font-size: 10px
+}
+
+
+.user-detail a:active, .user-detail a:focus, .user-detail a:hover, .user-detail.open > a, .user-detail.open > a:focus, .user-detail.open > a:hover {
+    background-color: #f3f3f3 !important;
+}
+
+.paddingZero {
+    padding: 0;
+}
+
+
+/*multi selecty dropdown height increase*/
+.options {
+    height: 100px;
+}
+
+.SumoSelect > .CaptionCont {
+    border: 1px solid #dddddd;
+    border-radius: 0px;
+}
+
+.SumoSelect > .SelectBox {
+    padding: 0px 8px;
+}
+
+.SumoSelect .select-all {
+    padding: 0px 0 3px 35px;
+}
+
+.SumoSelect > .CaptionCont > span {
+    font-size: 12px;
+}
+
+
+.table.table-default {
+    /*min-width: 300px;*/
+}
+
+.help-block {
+    color: red
+}
+
+.panel-search .control-label {
+    display: block;
+}
+
+#tblSearchResult {
+    width: 100% !important;
+}
+
+.txt_right {
+    text-align: right;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 5px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #e51937;
+            color: #fff;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #e51937;
+            color: #fff;
+        }
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.form-control {
+    height: 30px;
+    border-radius: 0px;
+}
+
+.inline_block {
+    display: inline-block;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+}
+
+.user-detail {
+    background-color: #f8f8f8;
+}
+
+.main-footer, .second-navba, #CMen a {
+    background: #4d4d4d;
+    color: #fff;
+}
+
+.second-navbar {
+    background-color: #4d4d4d;
+}
+
+.content-wrapper .page-body {
+    padding-top: 50px;
+}
+
+.value_header .col-md-3 {
+    text-align: center;
+}
+
+.show_tab_data .tab button {
+    width: 25%;
+}
+
+.width_100 label {
+    width: 100%;
+}
+
+.width_100 div {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+footer.main-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*New Css Added for hide top bar*/
+.content-wrapper {
+    padding-top: 90px;
+}
+
+/*.second-navbar {
+    display: none;
+}*/
+
+.options {
+    display: none;
+}
+
+.page-name {
+    display: none;
+}
+
+
+/*.ErrorModelHeader {
+        background-color: #bb0f29;
+        color: #ffffff;
+    }
+
+    .modal-header.ErrorModelHeader .close {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    .SuccessModelHeader {
+        background-color: #27881b;
+        color: #ffffff;
+    }
+
+    .modal-header.SuccessModelHeader .close {
+        background-color: #ffffff;
+        color: #000000;
+    }*/
+
+.modal-title {
+    text-align: center;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.InputBorderRed {
+    border-color: #f00 !important;
+}
+
+.ErrorContent > p {
+    color: #e51937;
+}
+
+.SuccessContent > p {
+    color: #0c8004;
+    font-weight: bold;
+}
+
+
+
+
+
+/*New CSS added 30/03/2018*/
+.Div1 {
+    width: 50%;
+    min-height: 50px;
+    float: left;
+    /*background-color: #ccc;*/
+    -webkit-transition: width 0.5s; /* Safari */
+    transition: width 0.5s;
+    max-height: 460px;
+    overflow: auto;
+}
+
+.Div2 {
+    width: 0;
+    min-height: 50px;
+    float: left;
+    /*background-color: #ddd;*/
+    -webkit-transition: width 0.5s; /* Safari */
+    transition: width 0.5s;
+}
+
+.Div1.FullWidth {
+    width: 100%;
+}
+
+.Div2.HalfWidth {
+    width: 50%;
+}
+
+.Div2 .col-md-12 {
+    display: none;
+}
+
+.Div2.HalfWidth .col-md-12 {
+    display: block;
+}
+
+
+.zoomableContainer {
+    border: 0 !important;
+}
+
+.investor_head {
+    padding: 0 5px 0 5px;
+}
+
+.MainTableClass > tbody {
+    width: 100%;
+    float: left;
+}
+
+    .MainTableClass > tbody > tr {
+        width: 50%;
+        float: left;
+    }
+
+        .MainTableClass > tbody > tr.trWidth100 {
+            width: 100%;
+            float: left;
+        }
+
+            .MainTableClass > tbody > tr.trWidth100 > td {
+                width: 100%;
+                float: left;
+                text-align: left;
+            }
+
+.tableStyle.MainTableClass td {
+    width: 25%;
+    float: left;
+    text-align: right;
+}
+
+.panel.panel-default .form-control {
+    margin: 2px 0;
+    box-shadow: none;
+    border-color: #bbb;
+    font-size: 12.5px;
+}
+
+    .panel.panel-default .form-control:focus{ border-color: green;}
+
+    .panel.panel-default label {
+        font-size: 12.5px;
+        padding-right: 2px;
+    }
+
+.btn-red {
+    font-size: 13px;
+}
+
+.zoomableContainer {
+    background-image: none !important;
+}
+
+.width_75 {
+    width: 75% !important;
+}
+
+
+/*25042019 handle height in Tabs and I pads*/
+@media(min-height:650px) and (max-height:700px) {
+    .panel.panel-default > .panel-body {
+        max-height: 500px;
+    }
+
+    .Div1 {
+        max-height: 495px;
+    }
+
+    .ViewImageDiv {
+        height: 450px;
+    }
+}
+
+@media(min-height:701px) and (max-height:750px) {
+    .panel.panel-default > .panel-body {
+        max-height: 550px;
+    }
+
+    .Div1 {
+        max-height: 545px;
+    }
+
+    .ViewImageDiv {
+        height: 500px;
+    }
+}
+
+@media(min-height:751px) and (max-height:800px) {
+    .panel.panel-default > .panel-body {
+        max-height: 600px;
+    }
+
+    .Div1 {
+        max-height: 595px;
+    }
+
+    .ViewImageDiv {
+        height: 550px;
+    }
+}
+
+@media(min-height:801px) and (max-height:850px) {
+    .panel.panel-default > .panel-body {
+        max-height: 650px;
+    }
+
+    .Div1 {
+        max-height: 645px;
+    }
+
+    .ViewImageDiv {
+        height: 600px;
+    }
+}
+
+@media(min-height:851px) and (max-height:900px) {
+    .panel.panel-default > .panel-body {
+        max-height: 700px;
+    }
+
+    .Div1 {
+        max-height: 695px;
+    }
+
+    .ViewImageDiv {
+        height: 650px;
+    }
+}
+
+@media(min-height:901px) and (max-height:950px) {
+    .panel.panel-default > .panel-body {
+        max-height: 750px;
+    }
+
+    .Div1 {
+        max-height: 745px;
+    }
+
+    .ViewImageDiv {
+        height: 700px;
+    }
+}
+
+@media(min-height:951px) and (max-height:1000px) {
+    .panel.panel-default > .panel-body {
+        max-height: 800px;
+    }
+
+    .Div1 {
+        max-height: 795px;
+    }
+
+    .ViewImageDiv {
+        height: 750px;
+    }
+}
+
+@media(min-height:1001px) and (max-height:1050px) {
+    .panel.panel-default > .panel-body {
+        max-height: 850px;
+    }
+
+    .Div1 {
+        max-height: 845px;
+    }
+
+    .ViewImageDiv {
+        height: 800px;
+    }
+}
+
+@media(min-height:1051px) and (max-height:1100px) {
+    .panel.panel-default > .panel-body {
+        max-height: 900px;
+    }
+
+    .Div1 {
+        max-height: 895px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+@media(min-height:1101px) and (max-height:1150px) {
+    .panel.panel-default > .panel-body {
+        max-height: 950px;
+    }
+
+    .Div1 {
+        max-height: 945px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+@media(min-height:1151px) and (max-height:1200px) {
+    .panel.panel-default > .panel-body {
+        max-height: 1000px;
+    }
+
+    .Div1 {
+        max-height: 995px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+@media(min-height:1201px) and (max-height:1250px) {
+    .panel.panel-default > .panel-body {
+        max-height: 1050px;
+    }
+
+    .Div1 {
+        max-height: 1045px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+@media(min-height:1251px) and (max-height:1300px) {
+    .panel.panel-default > .panel-body {
+        max-height: 1100px;
+    }
+
+    .Div1 {
+        max-height: 1095px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+@media(min-height:1301px) and (max-height:1350px) {
+    .panel.panel-default > .panel-body {
+        max-height: 1150px;
+    }
+
+    .Div1 {
+        max-height: 1145px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+@media(min-height:1351px) and (max-height:1400px) {
+    .panel.panel-default > .panel-body {
+        max-height: 1200px;
+    }
+
+    .Div1 {
+        max-height: 1195px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+@media(min-height:1401px) and (max-height:1450px) {
+    .panel.panel-default > .panel-body {
+        max-height: 1250px;
+    }
+
+    .Div1 {
+        max-height: 1245px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+@media(min-height:1451px) and (max-height:1500px) {
+    .panel.panel-default > .panel-body {
+        max-height: 1300px;
+    }
+
+    .Div1 {
+        max-height: 1295px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+@media(min-height:1501px) and (max-height:1550px) {
+    .panel.panel-default > .panel-body {
+        max-height: 1350px;
+    }
+
+    .Div1 {
+        max-height: 1345px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+@media(min-height:1551px) and (max-height:1600px) {
+    .panel.panel-default > .panel-body {
+        max-height: 1400px;
+    }
+
+    .Div1 {
+        max-height: 1395px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+@media(min-height:1601px) {
+    .panel.panel-default > .panel-body {
+        max-height: 1400px;
+    }
+
+    .Div1 {
+        max-height: 1395px;
+    }
+
+    .ViewImageDiv {
+        height: 850px;
+    }
+}
+
+
+.SumoSelect {
+    text-align: left
+}
+
+    .SumoSelect .options {
+        height: 115px
+    }
+
+    .SumoSelect > .optWrapper > .options li.opt {
+        padding: 3px 6px;
+    }
+
+#tblDetailList td {
+    /*width: 533px !important;*/
+    text-align: left;
+    float: none;
+}
+
+/*29-05-2019 CSS added from index page*/
+.table.table-default {
+    min-width: 300px;
+}
+
+.help-block {
+    color: red
+}
+
+.panel-search .control-label {
+    display: block;
+}
+
+#tblSearchResult {
+    width: 100% !important;
+}
+
+.txt_right {
+    text-align: right;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 5px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #e51937;
+            color: #fff;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #e51937;
+            color: #fff;
+        }
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.form-control {
+    height: 30px;
+    border-radius: 0px;
+}
+
+.inline_block {
+    display: inline-block;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+}
+
+.user-detail {
+    background-color: #f8f8f8;
+}
+
+.main-footer, .second-navba, #CMen a {
+    background: #4d4d4d;
+    color: #fff;
+}
+
+.second-navbar {
+    background-color: #4d4d4d;
+}
+
+.content-wrapper .page-body {
+    padding-top: 50px;
+}
+
+.value_header .col-md-3 {
+    text-align: center;
+}
+
+.show_tab_data .tab button {
+    width: 25%;
+}
+
+.width_100 label {
+    width: 100%;
+}
+
+.width_100 div {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+footer.main-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* End 29-05-2019 CSS added from index page*/
+
+
+.panel.panel-default .font_Size {
+    margin: 2px 0;
+    box-shadow: none;
+    border-color: #bbb;
+    font-size: 18.5px !important;
+}
+
+
+
+.InnerDataTblClass {
+    max-width: 100%;
+    overflow: auto;
+}
+
+.DisabledControl {
+    color: black;
+    background-color: #d3d3d347;
+}
+
+.H_line {
+    margin-left: 20px;
+}
+
+.InvFolio, .InvFDR, .InvLastInvDate, .SHFolio, .SHFDR, .SHLastInvDate, .THFolio, .THFDR, .THLastInvDate {
+    overflow: inherit !important;
+}
+
+
+.trInvLblAddress, .trSHLblAddress, .trTHLblAddress {
+    display: block;
+    color: red !important;
+    width: auto;
+    float: left;
+    text-align: left;
+}
+
+
+
+/*Pin search modal*/
+#txtSearchPincode {
+    height: 20px !important;
+    box-shadow: none;
+}
+
+.CheckPin u {
+    cursor: pointer;
+}
+
+#tblPincode th {
+    padding: 5px 8px;
+    font-size: 12px;
+}
+
+.close {
+    cursor: pointer !important;
+}
+/*End Pin search modal*/
+
+.chequeDate {
+    padding: 2px 0;
+}

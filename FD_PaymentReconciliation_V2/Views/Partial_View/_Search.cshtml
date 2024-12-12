@@ -1,0 +1,393 @@
+﻿<style>
+    .form-horizontal .control-label {
+        padding-top: 3px;
+    }
+
+    .form-horizontal .form-control {
+        height: 28px;
+        padding: 4px 12px;
+    }
+</style>
+
+
+<div class="panel panel-default panel-search">
+    <div class="panel-heading" style="position:relative;">
+        <label>Application List</label>
+        <button type="button" id="btnPnlHide" class="btn btn-red" style="line-height: 24px;position: absolute;right: 15px;top: 5px;padding: 0;width: 25px;height: 25px;font-size: 20px;">+</button>
+    </div>
+    <div class="panel-body" id="pnlSearch">
+
+
+
+        <div class="row">
+            <div class="form-horizontal">
+                <div class="col-md-12">
+                    <div class="row12">
+
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Agency :</label>
+                                <div class="col-md-6" style="padding: 0;">
+                                    @if (ViewBag.Agency_Type == "1033")
+                                    {
+                                        <input id="txtAgency" class="form-control " value="ALL" type="text" disabled>
+                                        <input id="hdnAgencyCode" value="ALL" type="hidden">
+                                    }
+                                    else
+                                    {
+                                        <input id="txtAgency" class="form-control " value="@ViewBag.Agency_Name" type="text" disabled>
+                                        <input id="hdnAgencyCode" value="@ViewBag.Agency_Code" type="hidden">
+                                    }
+
+                                    <input id="hdnAgencyType" value="@ViewBag.Agency_Type" type="hidden">
+                                </div>
+                                @if (ViewBag.Agency_Type == "1033")
+                                {
+                                    <div class="col-md-2" style="padding: 2px 4px;">
+                                        <a class="btn btn-red lookup" style="padding: 1px;line-height: 0;float: left;margin: 0 3px 0 0;" data-toggle="modal" data-target="#ModelGetAgency">
+                                            <img id="btnOpenModalAgency" src="~/images/icon_Search.png" style="width: 20px;" />
+                                        </a>
+                                        <a id="" class="btn btn-red lookup" style="padding: 1px;line-height: 0;float: left;">
+                                            <img id="btnClrAgency" src="~/images/icon_trash.png" style="width: 20px;" />
+                                        </a>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">From Date :</label>
+                                <div class="col-md-6" style="padding: 0;">
+                                    <div class="input-group-addon">
+                                        <input id="txtFromDate" class="form-control " autocomplete="off" type="text" name="date">
+                                        <span id="lblErrFromDt" class="red-text"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">To Date :</label>
+                                <div class="col-md-6" style="padding: 0;">
+                                    <div class="input-group-addon">
+                                        <input id="txtToDate" class="form-control " autocomplete="off" type="text">
+                                        <span id="lblErrToDt" class="red-text"></span>
+                                        <input type="hidden" id="hdnTimeStamp" class="form-control" />
+                                        @*<img src="~/lib/images/calendar.gif" class="calender-img" style="height: 12.5px;">*@
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        @if (ViewBag.State == "PAN_INDIA" || ViewBag.State == "STATE_WISE" || ViewBag.State == "LOCATION_WISE")
+                        {
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">State :</label>
+                                    <div class="col-md-6" style="padding: 0;">
+
+                                        <select class="form-control" id="ddlAgencyState">
+                                            <option value="select">Select</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                        @if (ViewBag.State == "PAN_INDIA" || ViewBag.State == "STATE_WISE" || ViewBag.State == "LOCATION_WISE")
+                        {
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">Location :</label>
+                                    <div class="col-md-6" style="padding: 0;">
+                                        <select class="form-control" id="ddlAgencyLocation">
+                                            <option value="select">Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                        @if (ViewBag.State == "PAN_INDIA" || ViewBag.State == "STATE_WISE" || ViewBag.State == "LOCATION_WISE" || ViewBag.State == "MANAGER_WISE")
+                        {
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">Manager :</label>
+                                    <div class="col-md-6" style="padding: 0;">
+                                        <input id="txtAgencyManager" class="form-control " type="text">
+                                    </div>
+                                    <div class="col-md-2" style="padding: 2px 4px;">
+                                        <a class="btn btn-red lookup" style="padding: 1px;line-height: 0;float: left;margin: 0 3px 0 0;" data-toggle="modal" data-target="#ModelGetManager">
+                                            <img id="btnOpenModalManager" src="~/images/icon_Search.png" style="width: 20px;" />
+                                        </a>
+                                        <a id="" class="btn btn-red lookup" style="padding: 1px;line-height: 0;float: left;">
+                                            <img id="btnClrManager" src="~/images/icon_trash.png" style="width: 20px;" />
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        }
+
+                        @if (ViewBag.State == "PAN_INDIA" || ViewBag.State == "STATE_WISE" || ViewBag.State == "LOCATION_WISE" || ViewBag.State == "MANAGER_WISE")
+                        {
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">SCP/Sub Agency :</label>
+                                    <div class="col-md-6" style="padding: 0;">
+                                        <input id="txtSubAgency" class="form-control " type="text">
+                                    </div>
+                                    <div class="col-md-2" style="padding: 2px 4px;">
+                                        <a class="btn btn-red lookup" style="padding: 1px;line-height: 0;float: left;margin: 0 3px 0 0;" data-toggle="modal" data-target="#ModelGetSubAgency">
+                                            <img id="btnOpenModalSubAgency" src="~/images/icon_Search.png" style="width: 20px;" />
+                                        </a>
+                                        <a id="" class="btn btn-red lookup" style="padding: 1px;line-height: 0;float: left;">
+                                            <img id="btnClrSubAgency" src="~/images/icon_trash.png" style="width: 20px;" />
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        }
+
+                        @if (ViewBag.State == "PAN_INDIA" || ViewBag.State == "USER_WISE")
+                        {
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">User :</label>
+                                    <div class="col-md-6" style="padding: 0;">
+                                        <input id="txtUser" class="form-control " type="text">
+                                    </div>
+                                    <div class="col-md-2" style="padding: 2px 4px;">
+                                        <a class="btn btn-red lookup" style="padding: 1px;line-height: 0;float: left;margin: 0 3px 0 0;" data-toggle="modal" data-target="#ModelGetUser">
+                                            <img id="btnOpenModalUser" src="~/images/icon_Search.png" style="width: 20px;" />
+                                        </a>
+                                        <a id="" class="btn btn-red lookup" style="padding: 1px;line-height: 0;float: left;">
+                                            <img id="btnClrUser" src="~/images/icon_trash.png" style="width: 20px;" />
+                                        </a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        }
+
+
+                        <div class="col-md-12">
+                            <div class="form-group" style="margin: 0;">
+                                <div class="col-md-12 text-center">
+                                    <button type="button" id="btnSearch" class="btn btn-red" style="">Search</button>
+                                    <button type="button" id="btnResetTAT" class="btn btn-red" style="margin-left:10px;">Reset</button>
+                                </div>
+                            </div>
+                            @*<div class="col-md-2">
+                                    <button type="button" id="btnExportToExcel" class="btn btn-red" style="margin-left:10px;padding: 4px 5px 4px;line-height: 0;height: auto;">
+                                        <img src="~/images/icon_excel.png" style="width: 26px;" />
+                                    </button>
+                                </div>*@
+                        </div>
+
+                    </div>
+                </div>
+                @*<div class="col-md-4">
+
+                    </div>*@
+
+                @*<div class="col-md-4">
+                        <button type="button" id="btnExportToExcel" class="btn btn-red" style="margin-left:10px;">Export to Excel</button>
+                    </div>*@
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Agency-->
+<div id="ModelGetAgency" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header AlertModelHeader">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Search Agency</h4>
+            </div>
+            <div id="ModelErrorMsg" class="alert alert-red" style="display:block; padding-left:15px;">
+                <p>
+                    Application Message Center :
+                    <label id="modellblErrormsg" style="color:red" />
+                </p>
+            </div>
+            <div class="modal-body">
+
+                <table class="table table-default" id="tblAgency">
+                    <thead>
+                        <tr>
+                            <th>Select</th>
+                            <th>Business Broker Code</th>
+                            <th>Business Broker Name</th>
+                            <th>E-Sarathi Code</th>
+                            <th>E-Sarathi Name</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3">No Record Found..!!!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal Manager-->
+<div id="ModelGetManager" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header AlertModelHeader">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Search Manager</h4>
+            </div>
+            <div id="ModelErrorMsg" class="alert alert-red" style="display:block; padding-left:15px;">
+                <p>
+                    Application Message Center :
+                    <label id="modellblErrormsg" style="color:red" />
+                </p>
+            </div>
+            <div class="modal-body">
+                @*<div class="row1 col-md-12" style="margin: 5px 0 10px 0;">
+                        <label class="control-label col-md-2"> Pincode </label>
+                        <div class="col-md-4">
+                            <input type="text" id="txtSearchPincode" class="form-control  number_only" maxlength="6" />
+                        </div>
+                        <input type="button" id="btnSearchPincode" class="btn btn-red" name="name" value="Search" />
+                    </div>*@
+                @*<br />
+                    <br />*@
+                <table class="table table-default" id="tblAgencyManager">
+                    <thead>
+                        <tr>
+                            <th>Select</th>
+                            <th>Code</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3">No Record Found..!!!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal Sub Agency-->
+<div id="ModelGetSubAgency" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header AlertModelHeader">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Search Sub Agency</h4>
+            </div>
+            <div id="ModelErrorMsg" class="alert alert-red" style="display:block; padding-left:15px;">
+                <p>
+                    Application Message Center :
+
+                    <label id="modellblErrormsg" style="color:red" />
+                </p>
+            </div>
+            <div class="modal-body">
+                @*<div class="row1 col-md-12" style="margin: 5px 0 10px 0;">
+                        <label class="control-label col-md-2"> Pincode </label>
+                        <div class="col-md-4">
+                            <input type="text" id="txtSearchPincode" class="form-control  number_only" maxlength="6" />
+                        </div>
+                        <input type="button" id="btnSearchPincode" class="btn btn-red" name="name" value="Search" />
+                    </div>*@
+                @*<br />
+                    <br />*@
+                <table class="table table-default" id="tblSubAgency">
+                    <thead>
+                        <tr>
+                            <th>Select</th>
+                            <th>Code</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3">No Record Found..!!!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal User-->
+<div id="ModelGetUser" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header AlertModelHeader">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Search User</h4>
+            </div>
+            <div id="ModelErrorMsg" class="alert alert-red" style="display:block; padding-left:15px;">
+                <p>
+                    Application Message Center :
+                    <label id="modellblErrormsg" style="color:red" />
+                </p>
+            </div>
+            <div class="modal-body">
+                @*<div class="row1 col-md-12" style="margin: 5px 0 10px 0;">
+                        <label class="control-label col-md-2"> Pincode </label>
+                        <div class="col-md-4">
+                            <input type="text" id="txtSearchPincode" class="form-control  number_only" maxlength="6" />
+                        </div>
+                        <input type="button" id="btnSearchPincode" class="btn btn-red" name="name" value="Search" />
+                    </div>*@
+                @*<br />
+                    <br />*@
+                <table class="table table-default" id="tblUser">
+                    <thead>
+                        <tr>
+                            <th>Select</th>
+                            <th>Code</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3">No Record Found..!!!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script>
+        var Agency_Code = '@ViewBag.Agency_Code';
+        var Agency_Name = '@ViewBag.Agency_Name';
+        var Agency_Type = '@ViewBag.Agency_Type';
+</script>
+

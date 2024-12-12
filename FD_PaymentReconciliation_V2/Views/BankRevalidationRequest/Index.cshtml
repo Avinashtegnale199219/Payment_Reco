@@ -1,0 +1,666 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+
+    @*<link href="~/lib/datepicker/datepicker3.css" rel="stylesheet" asp-append-version="true" />*@
+    @*<link href="~/lib/datetextentry/jquery.datetextentry.min.css" rel="stylesheet" asp-append-version="true" />*@
+    <link href="~/lib/DataTable/jquery.dataTables.min.css" rel="stylesheet" asp-append-version="true" />
+    @*<link href="~/style/font-awesome.min.css" rel="stylesheet" asp-append-version="true" />*@
+
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/style/form.min.css" rel="stylesheet" asp-append-version="true" />
+    <style>
+        /**/
+        .btn2-red {
+            color: #e51937;
+            background-color: #ffffff;
+            height: 20px;
+            font-size: 10px;
+            padding: 2px 5px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 400;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        /*----form input css----*/
+        .form-group.FormGrpCustm > label.lblForButton {
+            margin: 0;
+            width: 100%;
+            float: left;
+        }
+
+        .form-group.FormGrpCustm input.form-control,
+        .form-group.FormGrpCustm select.form-control,
+        .form-group.FormGrpCustm textarea.form-control {
+            height: 30px;
+            border-radius: 4px;
+        }
+        /*----//form input css----*/
+        /*button style*/
+        .BtnCls2 {
+            border: 1px solid #d6d6d6;
+            background-color: #ebecee;
+            font-size: 14px;
+            /* padding: 1px; */
+            padding: 2px 6px 1px;
+            width: 28px;
+            border-radius: 1px;
+            text-align: center;
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+        }
+
+            .BtnCls2:hover, .BtnCls2:focus {
+                background-color: #fff;
+                /*color: #fff;*/
+                border: 1px solid #777;
+                box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.50);
+            }
+
+        .table.CommonTblStyle.CommonTblStyle2 td .BtnCls2 i.fa {
+            margin: 0;
+        }
+        /**/
+
+        /*iformation section style*/
+        .SecHeaderTxt {
+            width: 100%;
+            height: auto;
+            float: left;
+            color: #E11936;
+            padding: 5px 15px 5px;
+            margin: 0;
+            font-family: 'Proxima Nova Lt';
+            font-weight: bold;
+            font-family: arial;
+            font-weight: normal;
+        }
+        /*view all details section css*/
+        .ViewDtlOutr {
+            padding: 0 15px;
+            float: left;
+            width: 100%;
+            margin: 0 0 15px 0;
+            overflow: auto;
+        }
+
+            .ViewDtlOutr > .CommonTblStyle {
+                margin: 0;
+            }
+
+
+        .CommonTblStyle.TblExistNominee > tbody {
+            border: 0;
+        }
+
+            .CommonTblStyle.TblExistNominee > tbody > tr > td {
+                width: 13%;
+                height: auto;
+                border: 1px solid #dddddd;
+                padding: 8px 2%;
+                background-color: #fef4f5;
+                font-size: 12px;
+                vertical-align: middle;
+            }
+
+                .CommonTblStyle.TblExistNominee > tbody > tr > td label {
+                    margin: 0;
+                }
+
+                .CommonTblStyle.TblExistNominee > tbody > tr > td:nth-child(2),
+                .CommonTblStyle.TblExistNominee > tbody > tr > td:nth-child(4),
+                .CommonTblStyle.TblExistNominee > tbody > tr > td:nth-child(6) {
+                    width: 20%;
+                    background-color: #ffffff;
+                    font-weight: bold;
+                }
+
+                .CommonTblStyle.TblExistNominee > tbody > tr > td:nth-child(2),
+                .CommonTblStyle.TblExistNominee > tbody > tr > td:nth-child(4) {
+                    border-right: 2px solid #999999;
+                }
+
+        /*//iformation section style*/
+        .CommonBtn {
+            width: auto;
+            height: auto;
+            /*float: left;*/
+            border: 2px solid #333333;
+            color: #333333;
+            padding: 5px 12px 4px;
+            margin: 0;
+            font-size: 12px;
+            background-color: #ffffff;
+            font-weight: bold;
+            border-radius: 0;
+            font-family: arial;
+        }
+
+            .CommonBtn:hover, .CommonBtn:focus, .CommonBtn:active {
+                background-color: #e21937;
+                color: #ffffff;
+                border-color: transparent;
+            }
+
+        .mr_15 {
+            margin-right: 15px;
+        }
+    </style>
+
+    <style>
+        /*-----modal Error style----*/
+        .ModelContDiv {
+            font-size: 13px;
+        }
+
+        .ModelCustmError {
+        }
+
+            .ModelCustmError .modal-header .close {
+                font-size: 18px;
+                line-height: 22px;
+                width: 24px;
+                height: 24px;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+            .ModelCustmError .modal-body {
+                padding: 15px;
+            }
+
+                .ModelCustmError .modal-body .ModelContDiv {
+                    background-color: #ebebeb;
+                    width: 100%;
+                    padding: 10px;
+                    font-size: 14px;
+                }
+
+                    .ModelCustmError .modal-body .ModelContDiv > p:last-child {
+                        margin-bottom: 0;
+                    }
+
+            .ModelCustmError .modal-footer {
+                text-align: center;
+            }
+
+                .ModelCustmError .modal-footer .comnBtn3 {
+                    width: auto;
+                    height: auto;
+                    float: none;
+                    display: inline-block;
+                    border: 2px solid #333333;
+                    border-top-color: rgb(51, 51, 51);
+                    border-right-color: rgb(51, 51, 51);
+                    border-bottom-color: rgb(51, 51, 51);
+                    border-left-color: rgb(51, 51, 51);
+                    color: #333333;
+                    padding: 5px 12px 4px;
+                    margin: 5px;
+                    font-size: 12px;
+                    background-color: #ffffff;
+                    font-weight: 600;
+                    border-radius: 2px;
+                    min-width: 75px;
+                }
+
+                    .ModelCustmError .modal-footer .comnBtn3:hover,
+                    .ModelCustmError .modal-footer .comnBtn3:focus,
+                    .ModelCustmError .modal-footer .comnBtn3:active {
+                        background-color: #e21937;
+                        color: #ffffff;
+                        border-color: transparent;
+                    }
+
+
+        .ModelContDiv.ErrorContent {
+            color: #ff0000;
+        }
+        /*-----//modal Error style----*/
+        /*-----modal success style----*/
+        .ModelCustmSucc {
+        }
+
+            .ModelCustmSucc .modal-header .close {
+                font-size: 18px;
+                line-height: 22px;
+                width: 24px;
+                height: 24px;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+            .ModelCustmSucc .modal-body {
+                padding: 15px;
+            }
+
+                .ModelCustmSucc .modal-body .ModelContDiv {
+                    background-color: #ebebeb;
+                    width: 100%;
+                    padding: 10px;
+                    font-size: 14px;
+                }
+
+                    .ModelCustmSucc .modal-body .ModelContDiv > p:last-child {
+                        margin-bottom: 0;
+                    }
+
+            .ModelCustmSucc .modal-footer {
+                text-align: center;
+            }
+
+                .ModelCustmSucc .modal-footer .comnBtn3 {
+                    width: auto;
+                    height: auto;
+                    float: none;
+                    display: inline-block;
+                    border: 2px solid #333333;
+                    border-top-color: rgb(51, 51, 51);
+                    border-right-color: rgb(51, 51, 51);
+                    border-bottom-color: rgb(51, 51, 51);
+                    border-left-color: rgb(51, 51, 51);
+                    color: #333333;
+                    padding: 5px 12px 4px;
+                    margin: 5px;
+                    font-size: 12px;
+                    background-color: #ffffff;
+                    font-weight: 600;
+                    border-radius: 2px;
+                    min-width: 75px;
+                }
+
+                    .ModelCustmSucc .modal-footer .comnBtn3:hover,
+                    .ModelCustmSucc .modal-footer .comnBtn3:focus,
+                    .ModelCustmSucc .modal-footer .comnBtn3:active {
+                        background-color: #e21937;
+                        color: #ffffff;
+                        border-color: transparent;
+                    }
+
+
+        .ModelContDiv.SuccessContent {
+            color: #047904;
+        }
+        /*-----//modal success style----*/
+    </style>
+
+    @*<link href="~/DirectInvCkycApproval/css/AddDetailStyleNew.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/DirectInvCkycApproval/css/ToggleCss.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/DirectInvCkycApproval/css/DirectInvCkycApproval.css" rel="stylesheet" asp-append-version="true" />*@
+
+}
+<input type="hidden" id="hdndeP_NO" />
+<input type="hidden" id="hdniW_NO" />
+
+@*avinash added*@
+<input type="hidden" id="hdn_pan" />
+
+<div class="container" id="sec1">
+    <div id="preloader" style="display: none;">
+        <div class="overlay">
+            <p>
+                Loading
+                <span class="spinner"></span>
+            </p>
+        </div>
+    </div>
+    <div class="panel panel-default" style="margin-top: 45px;" id="SearchPanel1">
+        <div class="panel-heading">
+            Search
+            <div class="pull-right">
+                <button type="button" class="btn2 btn2-red btn2-small btnPanelHandle" id="BtnSrchSec"><i class="fa fa-chevron-up"></i></button>
+            </div>
+        </div>
+        <div class="panel-body" style="">
+            <div class="row" id="advanceSearchSecProtoType1">
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="form-group FormGrpCustm FormGrpCustm2">
+                        <label for="">Search Type</label>
+                        <select class="form-control" id="ddlSearchType">
+                            <option value="0">Select</option>
+                            <option value="FDR">FDR</option>
+                            <option value="FOLIO">Folio</option>
+                            <option value="PAN">PAN</option>
+                            <option value="IW_NO">IW NO</option>
+                            <option value="OFAS_VOUCHER_NO">OFAS Voucher No</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12 showDate1">
+                    <div class="form-group FormGrpCustm FormGrpCustm2">
+                        <label for="">Search Text</label>
+                        <input type="text" id="txtSearchText" class="form-control" value="">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="form-group FormGrpCustm FormGrpCustm2">
+                        <label class="lblForButton">&nbsp;</label>
+                        <button class="btn btn-red btnSearchCls" id="btnAdvSearch">Search</button>&nbsp;&nbsp;&nbsp;
+                        <button class="btn btn-red" id="btnAdvReset">Reset</button>&nbsp;&nbsp;&nbsp;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Search Data Section-->
+    <div class="panel panel-default divResultCls" id="divGetResult">
+        <div class="panel-heading">
+            FDR Data
+        </div>
+        <div class="panel-body" style="">
+            @*<div class="row" id="advanceSearchSecProtoType1">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="form-group FormGrpCustm FormGrpCustm2">
+                            <label for="">FDR</label>
+                            <select class="form-control" id="ddlFDRList">
+                                <option value="0">Select</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>*@
+            <div class="table-responsive" id="tableData">
+                <table class="table table-default text-center" id="tblBankRevalidationDetails">
+                    <thead>
+                        <tr>
+                            <th>Select</th>
+                            <th>IW No</th>
+                            <th>FDR No</th>
+                            <th>Folio No</th>
+                            <th>Depositor Name</th>
+                            <th>Amount</th>
+                            <th>PAN</th>
+                            <th>OFAS voucher No</th>
+                            <th>Payment Status</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <!--information show-->
+    <div class="panel panel-default" id="BankRevalidationDIV" style="margin-top: 10px;">
+        <div class="panel-heading">
+            Bank Revalidation Details
+        </div>
+        <div class="panel-body" style="padding: 0 0 20px 0;">
+            <!-- Personal details -->
+            <div class="col-md-12 col-sm-12 copl-xs-12">
+                <div class="row">
+                    <h4 class="SecHeaderTxt">Investor Details</h4>
+                </div>
+                <div class="row">
+                    <div class="ViewDtlOutr">
+                        <table class="table CommonTblStyle TblExistNominee" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td><span>Deposit no</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblFDR"></label>
+                                    </td>
+                                    <td><span>Depositor Name</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblInvName"></label>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td><span>Folio Number</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblFolioNo"></label>
+                                    </td>
+                                    <td><span>Deposit Amount </span></td>
+                                    <td>
+                                        <label class="lbl" id="lblDepAmount"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>CHANGE OF BANK DETAILS REQ RECD ( Y/N) ( BVL) </span></td>
+                                    <td>
+                                        <label class="lbl" id="lblbankDtl"></label>
+                                    </td>
+                                    <td><span>CHANGE OF BANK DETAILS REQ RECD ( Y/N) ( OFFLINE)</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblbankDtlOffline"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>DMS DOWNLOAD LINK ( TO VIEW UPLOADED DOCUMENTS)</span></td>
+                                    <td>
+                                        <a class="lbl" id="lblDMSDownload" href="" target="_blank"></a>
+                                    </td>
+                                    <td><span>DMS UPLOAD</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblDMSUpload"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>STATUS</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblStatus"></label>
+                                    </td>
+                                    <td><span>Sub Status</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblSubStatus"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>Status code</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblStatusCode"></label>
+                                    </td>
+                                    <td><span>Status Reason</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblStatusReason"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>UTR /SEQUENCE NO</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblsequenceNo"></label>
+                                    </td>
+                                    <td><span>Payment Date</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblPaymentDate"></label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- Address details -->
+            <div class="col-md-12 col-sm-12 copl-xs-12">
+                <div class="row">
+                    <h4 class="SecHeaderTxt">NEW BANK DETAILS</h4>
+                </div>
+                <div class="row">
+                    <div class="ViewDtlOutr">
+                        <table class="table CommonTblStyle TblExistNominee" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td><span>Bank Name</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblBankName"></label>
+                                    </td>
+                                    <td><span>Bank Account</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblBankAccount"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>IFSC code</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblIFSCcode"></label>
+                                    </td>
+                                    <td><span>WAR Amount</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblWARAmt"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>OLD-PAYMENT/INT TYPE</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblPayType"></label>
+                                    </td>
+                                    <td><span>OLD OFAS TC </span></td>
+                                    <td>
+                                        <label class="lbl" id="lblOFAS_TC"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>OLD OFAS VOUCHER NO</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblOFAS_VOU_NO"></label>
+                                    </td>
+                                    <td><span>STALE STATUS  ( YES/NO)</span></td>
+                                    <td>
+                                        <input type="checkbox" id="chkStaleStatus" />(Reversal of stop payment entry)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>WAR NO </span></td>
+                                    <td>
+                                        <label class="lbl" id="lblWAR_NO"></label>
+                                    </td>
+                                    <td><span>WAR DT</span></td>
+                                    <td>
+                                        <label class="lbl" id="lblWAR_DT"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>OFAS CHQ NO </span></td>
+                                    <td>
+                                        <label class="lbl" id="lblOFAS_CHQ_NO"></label>
+                                    </td>
+                                   
+                                    @*<td><span>OLD PHY CHQ/DD/WAR NO</span></td>
+                                        <td>
+                                            <label class="lbl" id="lblPHY_CHQ"></label>
+                                        </td>*@
+
+                                    <td><span>NEW OFAS TC <span class="red-text">*</span></span></td>
+                                    <td>
+                                        <select class="form-control" id="ddlOFAS_TC">
+                                            <option value="0">Select</option>
+                                            @*<option value="HBB">HBB</option>
+                                                <option value="HXM">HXM</option>*@
+                                            <option value="HBA">HBA</option>
+                                            <option value="HFI">HFI</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span>STOP PAYMENT REQUEST ( HBB/HXM/HBA) </span></td>
+                                    <td>
+                                        <input type="checkbox" id="chkStopPayment" />
+                                    </td>
+                                    @*<td><span>NEW OFAS TC <span class="red-text">*</span></span></td>
+                                            <td>
+                                                <select class="form-control" id="ddlOFAS_TC">
+                                                    <option value="0">Select</option>
+                                        <option value="HBA">HBA</option>
+                                        <option value="HFI">HFI</option>
+                                        </select>
+                                        </td>*@
+
+                                    <td></td><td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="form-group FormGrpCustm FormGrpCustm2">
+                    <label for="">Remarks<span class="red-text">*</span></label>
+                    <textarea id="RemarkID" class="form-control" style="height: auto;"></textarea>
+                </div>
+            </div>
+
+            <!-- Buttons Details -->
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                @*<button class="btn CommonBtn floatNone mr_15" id="btnBack" type="button" style="">Back</button>*@
+                <button class="btn CommonBtn floatNone mr_15" id="btnSubmit" type="button" style="">Submit</button>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="ModelMessage" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-md" style="">
+
+        <!-- Modal content-->
+        <div class="modal-content ModelCustmSucc">
+            <div class="modal-header SuccessModelHeader">
+                <button type="button" class="close" data-dismiss="modal" id="lblclose">&times;</button>
+                <h4 class="modal-title">Info</h4>
+            </div>
+            <div class="modal-body" style="width: 100%;">
+                <div id="dvModalMsg" class="ModelContDiv SuccessContent">
+
+                </div>
+
+                @*<div class="text-center">
+                        <button type="button" id="" class="comnBtn2" data-dismiss="modal">OK</button>
+                    </div>*@
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="OkButton" class="comnBtn3" data-dismiss="modal" onclick="">OK</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="ModelError" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-md" style="">
+
+        <!-- Modal content-->
+        <div class="modal-content ModelCustmError">
+            <div class="modal-header ErrorModelHeader">
+                <button type="button" class="close" data-dismiss="modal" id="lblclose">&times;</button>
+                <h4 class="modal-title">Info</h4>
+            </div>
+            <div class="modal-body" style="width: 100%;">
+                <div id="dvErrorMsg" class="ModelContDiv ErrorContent">
+
+                </div>
+
+                @*<div class="text-center">
+                        <button type="button" id="" class="comnBtn2" data-dismiss="modal">OK</button>
+                    </div>*@
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="" class="comnBtn3" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script>
+    //panel toggle
+    $('.btnPanelHandle').on('click', function () {
+        $(this).parents('.panel-heading').siblings('.panel-body').slideToggle('slow');
+        $(this).children().toggleClass('fa-chevron-down').toggleClass('fa-chevron-up');
+    });
+</script>
+
+<script src="~/AppJs/BankRevalidationRequest.js" asp-append-version="true"></script>
+<script src="~/js/jquery.dataTables.min.js"></script>
+<script src="~/js/modal.min.js"></script>

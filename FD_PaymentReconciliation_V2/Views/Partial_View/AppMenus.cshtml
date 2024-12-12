@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNetCore.Http
+@model IEnumerable<WA_FD_CP_AUTHENTICATION_MODEL.UserMenuItem>
+
+@if (Model != null)
+{
+    dynamic MainModules = Model.Select(x => new { x.MainModCode, x.MainModName }).Distinct().ToList();
+    dynamic SubModules = null;
+    string SubModeCode = Context.Session.GetString("SubModeCode");
+    string href = string.Empty;
+
+    <div id="CMen" style="float: left;">
+        <ul class="nav navbar-nav">
+            @foreach (dynamic MainModule in MainModules)
+            {
+                SubModules = null;
+
+                SubModules = Model.Where(w => w.MainModCode.Equals(MainModule.MainModCode)).Select(x => new { x.SubModCode, x.SubModName, x.PageName, x.Location }).Distinct().ToList();
+
+                <li class="dropdown">
+
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@MainModule.MainModName<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+
+                        @foreach (dynamic submenus in SubModules)
+                        {
+                            href = string.Empty;
+
+                            href = "/" + submenus.Location + submenus.PageName;
+
+                            if (Startup.Configuration["Envoirnment"].ToString() == "Development")
+                            {
+                                href = href.Replace("/WA_FD_Payment_Reco", string.Empty);
+                            }
+
+                            if (submenus.SubModCode.Equals(SubModeCode))
+                            {
+                                <li><a id="@submenus.SubModCode" class="submod selected" href="@href">@submenus.SubModName</a></li>
+                            }
+                            else
+                            {
+                                <li><a id="@submenus.SubModCode" class="submod" href="@href">@submenus.SubModName</a></li>
+                            }
+                        }
+                    </ul>
+                </li>
+            }
+        </ul>
+    </div>
+}

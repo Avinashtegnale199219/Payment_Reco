@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+<script type="text/javascript">
+    function InitFunction() {
+        var objectURLPath = { uploadedData: '@Url.Action("GetUploadData", "OnlinePaymentReconciliationList_RW")', alreadyUploaded: '@Url.Action("GetAlreadyPresent", "OnlinePaymentReconciliationList_RW")', uploadedException: '@Url.Action("GetUploadException", "OnlinePaymentReconciliationList_RW")', uploadedRectification: '@Url.Action("GetRectification", "OnlinePaymentReconciliationList_RW")',uploadedSuccess: '@Url.Action("GetUploadSuccess", "OnlinePaymentReconciliationList_RW")'};
+            return objectURLPath;
+        }
+</script>
+
+<div class="container">
+    <div id="preloader" style="display: none;">
+        <div class="overlay">
+            <p>
+                Loading
+                <span class="spinner"></span>
+            </p>
+        </div>
+    </div>
+
+    <div id="dvMain" class="panel panel-default">
+
+        <div class="panel-body">
+            <div class="form-group">
+
+                <div class="row" style="padding-bottom: 10px;">
+                    <div class="col-md-12">
+                        <div class="coman_table_head  table-responsive">
+                            <table id="tblReconDetails" class="table table-default">
+                                <thead>
+                                    <tr>
+                                        <th>Request Queue ID</th>
+                                        <th>Request Created By</th>
+                                        <th>File Requested Date</th>
+                                        <th>Total File Count</th>
+                                        <th>Already Uploaded</th>
+                                        <th>Exception</th>
+                                        <th>Rectification</th>
+                                        <th>Success</th>
+                                        <th>Process</th>
+                                        <th>Cancel</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody_onlinepaymentrecoList"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script src="~/js/jquery.dataTables.min.js"></script>
+<script src="~/AppJs/OnlinePaymentReconciliationList_RW.js" asp-append-version="true"></script>
